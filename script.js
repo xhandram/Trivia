@@ -57,7 +57,7 @@ function flipCard() {
   const correctAnswer = this.getAttribute("data-answer");
 
   // Eliminate all click event on the other cards
-  const allCards = document.querySelectorAll(".card");
+  const allCards = Array.from(document.querySelectorAll(".card"));
   allCards.forEach((card) => card.removeEventListener("click", flipCard));
 
   btnTrue.classList.add("btn");
