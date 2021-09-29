@@ -1,36 +1,59 @@
-
 :root {
-    --background-color:#652ebf;
-    --text-color: white;
-    --font-family: "Trebuchet", Arial, sans-serif;
+  --background-color: #652ebf;
+  --text-color: white;
+  --font-family: "Trebuchet", Arial, sans-serif;
 }
 body {
-    background-color: var(--background-color);
-    color:var(--text-color);
-    font-family: var(--font-family);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+  background-color: var(--background-color);
+  color: var(--text-color);
+  font-family: var(--font-family);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 #game {
-    display: flex;
+  display: flex;
 }
 
 .category-column {
-    display: flex;
-    flex-direction: column;    
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .card {
-    width: 200px;
-    height: 120px;
-    border-radius: 20px;
-    border: 2px solid yellow;
-    background-color: rgb(30, 1, 160);
-    text-align: center;
-    padding: 5px;
-    margin: 10px;
+  width: 200px;
+  height: 120px;
+  border-radius: 20px;
+  border: 2px solid yellow;
+  background-color: rgb(30, 1, 160);
+  text-align: center;
+  padding: 5px;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
 }
+
+.btn {
+  display: inline-block;
+  padding: 6px;
+  margin: 5px 5px;
+  border: 0;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  background-color: rgb(27 235 72);
+}
+
+.correct {
+  background-color: coral;
+}
+.wrong {
+  background-color: gray;
+}
+
