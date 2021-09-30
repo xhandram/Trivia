@@ -25,7 +25,7 @@ body {
 
 .card {
   width: 200px;
-  height: 120px;
+  min-height: 120px;
   border-radius: 20px;
   border: 2px solid yellow;
   background-color: rgb(30, 1, 160);
@@ -56,4 +56,3 @@ body {
 .wrong {
   background-color: gray;
 }
-
